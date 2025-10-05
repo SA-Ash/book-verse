@@ -4,16 +4,16 @@ A secure and scalable backend API for a Book Review Platform built with Node.js,
 
 ## Features
 
-- 🔐 User authentication with JWT
-- 📚 Book CRUD operations with ownership validation
-- ⭐ Review system with dynamic rating calculation
-- ❤️ Favorites and bookmarks functionality
-- 📖 Reading status tracking (Want to Read, Reading, Read, Did Not Finish)
-- 📄 Pagination for books (5 per page)
-- 🔍 Search functionality
-- ✅ Input validation and error handling
-- 🛡️ Security middleware (helmet, rate limiting, CORS)
-- 🖼️ Image upload support (local storage)
+- User authentication with JWT
+- Book CRUD operations with ownership validation
+- Review system with dynamic rating calculation
+- Favorites and bookmarks functionality
+- Reading status tracking (Want to Read, Reading, Read, Did Not Finish)
+- Pagination for books (5 per page)
+- Search functionality
+- Input validation and error handling
+- Security middleware (helmet, rate limiting, CORS)
+- Image upload support (local storage)
 
 ## Tech Stack
 
@@ -36,7 +36,7 @@ npm install
 ```env
 NODE_ENV=development
 PORT=5000
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/bookverse?retryWrites=true&w=majority
+MONGODB_URI=
 JWT_SECRET=your-super-secret-jwt-key-here
 JWT_EXPIRE=7d
 CLOUDINARY_CLOUD_NAME=
@@ -158,3 +158,4 @@ npm start
 | `MONGODB_URI` | MongoDB connection string | `mongodb+srv://...` |
 | `JWT_SECRET` | Secret key for JWT | `your-secret-key` |
 | `JWT_EXPIRE` | JWT expiration time | `7d` |
+
